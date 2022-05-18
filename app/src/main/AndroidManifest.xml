@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppNotas">
         <activity
-            android:name=".tela_substituicao"
+            android:name=".tela_substituicaoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

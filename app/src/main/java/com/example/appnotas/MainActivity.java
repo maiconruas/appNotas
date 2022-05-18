@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         substituicao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent segundaTela = new Intent(getApplicationContext(), tela_substituicao.class);
+                Intent segundaTela = new Intent(getApplicationContext(), tela_substituicaoActivity.class);
                 segundaTela.putExtra("valor1", nota1.getText().toString());
                 segundaTela.putExtra("valor2", nota2.getText().toString());
                 startActivity(segundaTela);

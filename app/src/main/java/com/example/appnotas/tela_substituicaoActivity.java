@@ -11,7 +11,7 @@ import android.widget.EditText;
 import com.example.appnotas.controller.AppNotaController;
 import com.example.appnotas.model.AppNotas;
 
-public class tela_substituicao extends AppCompatActivity {
+public class tela_substituicaoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
